@@ -26,43 +26,58 @@ let count=10;
 setTimeout(() => {
     count=count-1
     div.innerHTML=count
+    setTimeout(() => {
+        count=count-1
+        div.innerHTML=count
+        setTimeout(() => {
+            count=count-1
+            div.innerHTML=count
+            setTimeout(() => {
+                count=count-1
+                div.innerHTML=count
+                setTimeout(() => {
+                    count=count-1
+                    div.innerHTML=count
+                    setTimeout(() => {
+                        count=count-1
+                        div.innerHTML=count
+                        setTimeout(() => {
+                            count=count-1
+                            div.innerHTML=count
+                            setTimeout(() => {
+                                count=count-1
+                                div.innerHTML=count
+                                setTimeout(() => {
+                                    count=count-1
+                                    div.innerHTML=count
+                                    setTimeout(() => {
+                                        div.innerHTML="Happy Independace day"
+                                }, 1000);
+                                
+                                        
+                                            
+                                    
+                                }, 1000);
+                                
+                            }, 1000);
+                            
+                        }, 1000);
+                        
+                    }, 1000);
+                    
+                }, 1000);
+                
+            }, 1000);
+            
+        }, 1000);
+        
+    }, 1000);
+    
 }, 1000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 2000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 3000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 4000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 5000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 6000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 7000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 8000);
-setTimeout(() => {
-    count=count-1
-    div.innerHTML=count
-}, 9000);
 
-setTimeout(() => {
-        div.innerHTML="Happy republic day"
-}, 11000);
+
+
+
 
 
 // let container = document.createElement("div")
